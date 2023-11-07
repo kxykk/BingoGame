@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D06C1692AF48A4F00630ACA /* BingoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D06C1682AF48A4F00630ACA /* BingoCell.swift */; };
 		3DC8BD752AF3792300ABC8E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8BD742AF3792300ABC8E4 /* AppDelegate.swift */; };
 		3DC8BD772AF3792300ABC8E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8BD762AF3792300ABC8E4 /* SceneDelegate.swift */; };
 		3DC8BD792AF3792300ABC8E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8BD782AF3792300ABC8E4 /* ViewController.swift */; };
 		3DC8BD7C2AF3792300ABC8E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC8BD7A2AF3792300ABC8E4 /* Main.storyboard */; };
 		3DC8BD7E2AF3792500ABC8E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DC8BD7D2AF3792500ABC8E4 /* Assets.xcassets */; };
 		3DC8BD812AF3792500ABC8E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC8BD7F2AF3792500ABC8E4 /* LaunchScreen.storyboard */; };
+		3DC8BD892AF3811700ABC8E4 /* BingoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8BD882AF3811700ABC8E4 /* BingoButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D06C1682AF48A4F00630ACA /* BingoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingoCell.swift; sourceTree = "<group>"; };
 		3DC8BD712AF3792300ABC8E4 /* bingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC8BD742AF3792300ABC8E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DC8BD762AF3792300ABC8E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		3DC8BD7D2AF3792500ABC8E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DC8BD802AF3792500ABC8E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DC8BD822AF3792500ABC8E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DC8BD882AF3811700ABC8E4 /* BingoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingoButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				3DC8BD742AF3792300ABC8E4 /* AppDelegate.swift */,
 				3DC8BD762AF3792300ABC8E4 /* SceneDelegate.swift */,
 				3DC8BD782AF3792300ABC8E4 /* ViewController.swift */,
+				3DC8BD882AF3811700ABC8E4 /* BingoButton.swift */,
+				3D06C1682AF48A4F00630ACA /* BingoCell.swift */,
 				3DC8BD7A2AF3792300ABC8E4 /* Main.storyboard */,
 				3DC8BD7D2AF3792500ABC8E4 /* Assets.xcassets */,
 				3DC8BD7F2AF3792500ABC8E4 /* LaunchScreen.storyboard */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D06C1692AF48A4F00630ACA /* BingoCell.swift in Sources */,
 				3DC8BD792AF3792300ABC8E4 /* ViewController.swift in Sources */,
 				3DC8BD752AF3792300ABC8E4 /* AppDelegate.swift in Sources */,
 				3DC8BD772AF3792300ABC8E4 /* SceneDelegate.swift in Sources */,
+				3DC8BD892AF3811700ABC8E4 /* BingoButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
